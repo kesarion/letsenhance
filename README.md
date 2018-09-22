@@ -1,6 +1,10 @@
 # letsenhance
 Command line client for letsenhance.io - Enhance images in a directory
 
+## Install
+`npm i -g letsenhance`
+> Or download one of the executables from the releases page
+
 ## Usage:
 
 #### Command line
