@@ -1,0 +1,35 @@
+{
+  "name": "letsenhance",
+  "version": "0.1.0",
+  "description": "Command line client for letsenhance.io - Enhance images in a directory",
+  "main": "index.js",
+  "bin": {
+    "letsenhance": "./bin/letsenhance.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kesarion/letsenhance.git"
+  },
+  "keywords": [
+    "letsenhance",
+    "enhance",
+    "image",
+    "photo",
+    "client",
+    "tool"
+  ],
+  "author": {
+    "name": "Alexandru Sfirlogea",
+    "email": "alexandru.sfirlogea@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kesarion/letsenhance/issues"
+  },
+  "homepage": "https://github.com/kesarion/letsenhance#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.88.0"
+  }
+}
