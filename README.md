@@ -52,7 +52,7 @@ enhance();
 `letsenhance --type PNG --version boring --maxParallel 8 --progressInterval 30 joe.average@domain.com joespassword /path/source /path/dest`
 
 ## Notes:
-Options must be placed before the email string.
-If the paths or password contain spaces, use quotes: '/path to a dir' or "/path to another dir".
-Make sure there are only images in the source path directory; other files will cause errors and eventually halt the process. Hidden files starting with '.' are ignored.
-Don't use an option without a value, it may lead to unexpected results.
+Options must be placed before the email string.  
+If the paths or password contain spaces, use quotes: '/path to a dir' or "/path to another dir".  
+Make sure there are only images in the source path directory; other files will cause errors and eventually halt the process.   Hidden files starting with '.' are ignored.  
+Don't use an option without a value, it may lead to unexpected results.  
